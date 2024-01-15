@@ -12,6 +12,7 @@ module.exports = {
       'gray-dark': '#273444',
       'gray': '#8492a6',
       'gray-light': '#d3dce6',
+      'black' : '#212121',
       transparent: 'transparent',
     current: 'currentColor',
     red: {
