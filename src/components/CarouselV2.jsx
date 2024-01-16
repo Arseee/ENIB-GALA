@@ -1,6 +1,6 @@
 // Carousel.js
 import React from "react";
-import { CCarousel, CCarouselItem } from "@coreui/react";
+import { CCarousel, CCarouselItem, CCarouselCaption } from "@coreui/react";
 import "./Carousel.css";
 
 const Carousel = () => {
@@ -12,19 +12,18 @@ const Carousel = () => {
       className="h-screen"
       interval={false}
     >
-      <CCarouselItem>
-        {/* Contenu de la première diapositive */}
-    
-        <div className="carousel-content bg-black h-screen flex items-center flex-col text-white ">
-          <div className="h-40 my-12 flex items-center justify-center  ">
+      <CCarouselItem className="first-slide">
+        {/* Ajoute une div avec l'image en arrière-plan */}
+        <div className="image-background"></div>
+        {/* Contenu texte au-dessus de l'image */}
+        <div className=" h-screen flex items-center flex-col text-white z-10 relative testColors ">
+          <div className="h-40 my-12 flex items-center justify-center">
             <p className="text-8xl ">GALA de l'ENIB</p>
           </div>
-          <div className="h-40 -my-24 flex items-center justify-center  ">
-            <p className="text-7xl ">58 Edition</p>
+          <div className="h-40 -my-24 flex items-center justify-center">
+            <p className="text-7xl ">58 ème édition</p>
           </div>
-          <div className="h-40 flex  items-center justify-center  ">
-            {/* <div className="logo"></div> */}
-          </div>
+          <div className="h-40 flex  items-center justify-center">{/* Ajoute ici le contenu du logo si nécessaire */}</div>
         </div>
       </CCarouselItem>
       <CCarouselItem>
