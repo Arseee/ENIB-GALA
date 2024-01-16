@@ -1,6 +1,6 @@
 // Carousel.js
 import React from "react";
-import { CCarousel, CCarouselItem, CCarouselCaption } from "@coreui/react";
+import { CCarousel, CCarouselItem } from "@coreui/react";
 import "./Carousel.css";
 
 const Carousel = () => {
