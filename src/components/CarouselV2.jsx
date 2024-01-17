@@ -13,9 +13,7 @@ const Carousel = () => {
       interval={false}
     >
       <CCarouselItem className="first-slide">
-        {/* Ajoute une div avec l'image en arrière-plan */}
         <div className="image-background"></div>
-        {/* Contenu texte au-dessus de l'image */}
         <div className=" h-screen flex items-center flex-col text-white z-10 relative testColors ">
           <div className="h-40 my-12 flex items-center justify-center">
             <p className="text-8xl ">GALA de l'ENIB</p>
@@ -23,9 +21,14 @@ const Carousel = () => {
           <div className="h-40 -my-24 flex items-center justify-center">
             <p className="text-7xl ">58 ème édition</p>
           </div>
-          <div className="h-40 flex  items-center justify-center">{/* Ajoute ici le contenu du logo si nécessaire */}</div>
+          <div className="h-40 flex  items-center justify-center ">
+            <div className=" h-full w-screenlogoImg mt-80"></div>
+
+          </div>
         </div>
+        
       </CCarouselItem>
+      
       <CCarouselItem>
         <div className="carousel-content bg-black h-screen flex items-center justify-center ">
           <h3 className="text-white">Slide 2</h3>

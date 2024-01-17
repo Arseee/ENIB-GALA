@@ -1,3 +1,9 @@
+
+body {
+  font-family: 'Gang of Three', sans-serif;
+}
+
+
 /* Changement du padding des flèches   */
 .carousel-control-prev,
 .carousel-control-next {
@@ -44,5 +50,10 @@
 }
 .testColors {
   background-color: rgba(0, 0, 0, 0.6);
+
+}
+.logoImg {
+  background-image: url('../assets/enib-removebgHD.png');
+  background-repeat: no-repeat;
 
 }
