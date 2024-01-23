@@ -1,8 +1,7 @@
 // Carousel.js
-import React from "react";
 import { CCarousel, CCarouselItem } from "@coreui/react";
+import React from "react";
 import "./Carousel.css";
-import Button from "./Boutton";
 const Carousel = () => {
   return (
     <CCarousel
@@ -24,15 +23,28 @@ const Carousel = () => {
           <div className="h-40 flex items-center justify-center ">
             <div className=" logoImg mt-80"></div>
           </div>
-          <div>
-            <Button />
-          </div>
+          <div>{/* <Button /> */}</div>
         </div>
       </CCarouselItem>
 
       <CCarouselItem>
-        <div className="carousel-content bg-black h-screen flex items-center justify-center ">
-          <h3 className="text-white">Slide 2</h3>
+        <div className="carousel-content bg-black h-screen flex items-center justify-center containers">
+          <div className=" container-info flex items-center justify-around flex-col">
+            <div className="flex items-center justify-around flex-col">
+              <p className="text-white text-2xl">Menu</p>
+              <p className="text-white text-2xl">Horaire</p>
+              <p className="text-white text-2xl">TRAD</p>
+            </div>
+            <div>
+              <p className="text-white text-2xl">Menu</p>
+              <p className="text-white text-2xl">Horaire</p>
+              <p className="text-white text-2xl">TRAD</p>
+            </div>
+          </div>
+          <div className="bg-white  white-bar"></div>
+          <div className=" container-info  flex items-center justify-center">
+            <p className="text-white text-2xl">Programme </p>
+          </div>
         </div>
       </CCarouselItem>
       <CCarouselItem>
