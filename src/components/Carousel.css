@@ -8,6 +8,9 @@ body {
 .font-chinoise {
   font-family: "Gang of Three", sans-serif;
 }
+.font {
+  font-family: "Roboto Mono";
+}
 .gradientColorButton {
   font-family: sans-serif;
   background: linear-gradient(
@@ -84,7 +87,7 @@ body {
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
   border-radius: 10px;
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 .containers:first-child {
   padding-left: 200px;
