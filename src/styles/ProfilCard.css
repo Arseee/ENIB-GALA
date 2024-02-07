@@ -1,0 +1,12 @@
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 170px;
+  grid-row-gap: 30px;
+}
+.profil-photo {
+  width: 13vw;
+  height: 13vw;
+  box-shadow: 0px 0px 50px 29px rgba(0, 0, 0, 0.1);
+}
