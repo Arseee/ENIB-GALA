@@ -13,7 +13,10 @@ export const SlideStaff = () => {
   return (
     <div className="flex items-center flex-col font">
       <div className="mb-8">
-        <p className="text-4xl">Organisateurs BDE</p>
+        <p className="text-4xl font-bold underline underline-offset-8">
+          {" "}
+          Organisation
+        </p>
       </div>
       <div className="grid-container">
         <ProfilCard photo={img1} nom="Arthur Presse" role="Président" />
