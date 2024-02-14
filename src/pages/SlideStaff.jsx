@@ -18,13 +18,25 @@ export const SlideStaff = () => {
           Organisation
         </p>
       </div>
-      <div className="grid-container">
-        <ProfilCard photo={img1} nom="Arthur Presse" role="Président" />
-        <ProfilCard photo={img2} nom="Alexis Maurice" role="Vis président" />
-        <ProfilCard photo={img3} nom="Léo Oreveillon" role="Secrétaire" />
-        <ProfilCard photo={img4} nom="Joseph Lastenet" role="Secrétaire" />
-        <ProfilCard photo={img5} nom="Claire Peron" role="Secrétaire" />
-        <ProfilCard photo={img6} nom="Noé moreau" role="Trésorier" />
+      <div className="grid-container ">
+        <div className="flat">
+          <ProfilCard photo={img1} nom="Arthur Presse" role="Président" />
+        </div>
+        <div className="flat">
+          <ProfilCard photo={img2} nom="Alexis Maurice" role="Vis président" />
+        </div>
+        <div className="flat">
+          <ProfilCard photo={img3} nom="Léo Oreveillon" role="Secrétaire" />
+        </div>
+        <div className="flat">
+          <ProfilCard photo={img4} nom="Joseph Lastenet" role="Secrétaire" />
+        </div>
+        <div className="flat">
+          <ProfilCard photo={img5} nom="Claire Peron" role="Secrétaire" />
+        </div>
+        <div className="flat">
+          <ProfilCard photo={img6} nom="Noé moreau" role="Trésorier" />
+        </div>
       </div>
     </div>
   );
