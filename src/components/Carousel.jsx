@@ -22,7 +22,7 @@ const Carousel = () => {
         <SlideProg />
       </CCarouselItem>
       <CCarouselItem>
-        <div className="carousel-content bg-pink-200 h-screen flex items-center justify-center">
+        <div className="carousel-content bg-black 0 h-screen flex items-center justify-center">
           <SlideStaff />
         </div>
       </CCarouselItem>

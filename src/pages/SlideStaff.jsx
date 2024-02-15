@@ -13,30 +13,18 @@ export const SlideStaff = () => {
   return (
     <div className="flex items-center flex-col font">
       <div className="mb-8">
-        <p className="text-4xl font-bold underline underline-offset-8">
+        <p className="text-4xl text-blue-100 font-bold underline underline-offset-8">
           {" "}
-          Organisation
+          Staff
         </p>
       </div>
       <div className="grid-container ">
-        <div className="flat">
-          <ProfilCard photo={img1} nom="Arthur Presse" role="Président" />
-        </div>
-        <div className="flat">
-          <ProfilCard photo={img2} nom="Alexis Maurice" role="Vis président" />
-        </div>
-        <div className="flat">
-          <ProfilCard photo={img3} nom="Léo Oreveillon" role="Secrétaire" />
-        </div>
-        <div className="flat">
-          <ProfilCard photo={img4} nom="Joseph Lastenet" role="Secrétaire" />
-        </div>
-        <div className="flat">
-          <ProfilCard photo={img5} nom="Claire Peron" role="Secrétaire" />
-        </div>
-        <div className="flat">
-          <ProfilCard photo={img6} nom="Noé moreau" role="Trésorier" />
-        </div>
+        <ProfilCard photo={img1} nom="Arthur PRESSE" role="Président" />
+        <ProfilCard photo={img2} nom="Alexis MAURICE" role="Vice-président" />
+        <ProfilCard photo={img3} nom="Léo OREVEILLON" role="Secrétaire" />
+        <ProfilCard photo={img4} nom="Joseph LASTENET" role="Secrétaire" />
+        <ProfilCard photo={img5} nom="Claire PERON" role="Secrétaire" />
+        <ProfilCard photo={img6} nom="Noé MOREAU" role="Trésorier" />
       </div>
     </div>
   );
