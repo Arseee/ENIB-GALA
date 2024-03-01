@@ -1,0 +1,15 @@
+.logo-container {
+  width: 100%; /* Ajustez la largeur du conteneur selon vos besoins */
+  height: 200px; /* Ajustez la hauteur du conteneur selon vos besoins */
+
+  /* Pour centrer l'image dans le conteneur */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-image {
+  width: auto;
+  height: 125%;
+  object-fit: contain; /* La propriété qui maintient les proportions sans déformation */
+}
