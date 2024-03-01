@@ -10,7 +10,10 @@ export default function SlideProg() {
               Programme
             </p>
           </div>
-          <div className="flex items-center justify-center text-center ">
+          <p className="text-blue-100 text-2xl font-bold absolute top-0 ml-52 mt-20 ">
+            13 avril 2024
+          </p>
+          <div className="flex items-center justify-center text-center mt-3">
             <ul className="pt-16 text-blue-200  text-xl  ">
               <li>Début de la remise des diplômes</li>
               <li className="py-4 font-bold">15h30 - 17h30</li>
@@ -19,7 +22,7 @@ export default function SlideProg() {
               <li className="py-4 font-bold">17h30 - 18h45</li>
               <li className="border-t-2 border-blue-100  w-60 mx-auto bottom-0 left-0 right-0 pt-8"></li>
               <li>Accueil pour le repas</li>
-              <li className="py-4 font-bold">18h45 - 22h</li>
+              <li className="py-4 font-bold">18h45 - 21h</li>
               <li className="border-t-2 border-blue-100  w-60 mx-auto bottom-0 left-0 right-0 pt-8"></li>
               <li>Début de soirée</li>
               <li className="py-4 font-bold">21h - 1H</li>
@@ -75,4 +78,4 @@ export default function SlideProg() {
   );
 }
 
-// <div className="btn-grad">RESERVER</div> BOUTON RESERVER
+//  BOUTON RESERVER
