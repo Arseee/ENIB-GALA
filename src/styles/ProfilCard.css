@@ -12,3 +12,10 @@
   margin: 20px 20px 10px 20px;
   object-fit: cover;
 }
+.flatArtist {
+  padding: 15px;
+  width: 20vw;
+  border-radius: 15px;
+  background: #dbeafe;
+  box-shadow: -5px -5px 20px #ffffffa8, 10px 10px 30px rgba(31, 38, 135, 0.27);
+}

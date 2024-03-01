@@ -1,4 +1,5 @@
 import React from "react";
+import ArtisteCard from "../components/ArtisteCard";
 
 export default function SlideArtiste() {
   return (
@@ -8,11 +9,11 @@ export default function SlideArtiste() {
           {" "}
           Artistes
         </p>
-        <div className="flex flex-col items-center text-white text-4xl space-y-20 mt-20">
-          <p>La Théorie des Cordes</p>
-          <p>Brak Guest Trospa</p>
-          <p>Dj Play M</p>
-          <p>Kram</p>
+        <div className="flex flex-col items-center text-blue-100 text-4xl space-y-20 mt-20">
+          <ArtisteCard nom={"La Théorie des Cordes"} />
+          <ArtisteCard nom={"Brak Guest Trospa"} />
+          <ArtisteCard nom={"Dj Play M"} />
+          <ArtisteCard nom={"Kram"} />
         </div>
       </div>
     </div>
