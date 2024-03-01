@@ -2,6 +2,7 @@
 import { CCarousel, CCarouselItem } from "@coreui/react";
 import React from "react";
 import SlideArtiste from "../pages/SlideArtiste";
+import SlideCreator from "../pages/SlideCreator";
 import SlideHome from "../pages/SlideHome";
 import SlidePartenaire from "../pages/SlidePartenaire";
 import SlideProg from "../pages/SlideProg";
@@ -32,6 +33,9 @@ const Carousel = () => {
       </CCarouselItem>
       <CCarouselItem>
         <SlideArtiste />
+      </CCarouselItem>
+      <CCarouselItem>
+        <SlideCreator />
       </CCarouselItem>
     </CCarousel>
   );
