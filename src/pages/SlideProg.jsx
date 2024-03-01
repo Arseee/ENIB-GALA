@@ -6,23 +6,23 @@ export default function SlideProg() {
       <div className=" container-info  h-screen">
         <div className="flex justify-center flex-col">
           <div className="flex items-center justify-center">
-            <p className="text-blue-100 text-3xl pt-8 underline underline-offset-8 font-bold ">
+            <p className="text-blue-100 text-3xl pt-4 underline underline-offset-8 font-bold ">
               Programme
             </p>
           </div>
           <div className="flex items-center justify-center text-center ">
-            <ul className="pt-16 text-blue-200  text-xl ">
-              <li>Remise des diplômes</li>
-              <li className="py-4 font-bold">15h - 17h30</li>
+            <ul className="pt-16 text-blue-200  text-xl  ">
+              <li>Début de la remise des diplômes</li>
+              <li className="py-4 font-bold">15h30 - 17h30</li>
               <li className="border-t-2 border-blue-100   w-60 mx-auto bottom-0 left-0 right-0 pt-8"></li>
-              <li>Cocktail</li>
+              <li>Cocktail offert par l'administration</li>
               <li className="py-4 font-bold">17h30 - 18h45</li>
               <li className="border-t-2 border-blue-100  w-60 mx-auto bottom-0 left-0 right-0 pt-8"></li>
-              <li>Repas</li>
-              <li className="py-4 font-bold">19h - 22h</li>
+              <li>Accueil pour le repas</li>
+              <li className="py-4 font-bold">18h45 - 22h</li>
               <li className="border-t-2 border-blue-100  w-60 mx-auto bottom-0 left-0 right-0 pt-8"></li>
-              <li>Soirée</li>
-              <li className="py-4 font-bold">22h - 1H</li>
+              <li>Début de soirée</li>
+              <li className="py-4 font-bold">21h - 1H</li>
             </ul>
           </div>
         </div>
@@ -31,21 +31,42 @@ export default function SlideProg() {
       <div className=" container-info  h-screen">
         <div className="flex justify-center flex-col">
           <div className="flex items-center justify-center">
-            <p className="text-blue-100 text-3xl pt-10 underline underline-offset-8 font-bold ">
+            <p className="text-blue-100 text-3xl pt-4 underline underline-offset-8 font-bold ">
               Menu
             </p>
           </div>
           <div className="flex items-center justify-center text-center ">
-            <ul className="pt-16 text-blue-200  text-xl ">
-              <li>Entrée</li>
-              <li className="py-8 font-bold">15h - 17h30</li>
-              <li className="border-t-2 border-blue-100 w-60 mx-auto bottom-0 left-0 right-0 pt-8"></li>
-              <li>Plat</li>
-              <li className="py-8 font-bold">17h30 - 18h45</li>
-              <li className="border-t-2 border-blue-100  w-60 mx-auto bottom-0 left-0 right-0 pt-8"></li>
-              <li>Dessert</li>
-              <li className="py-8 font-bold">19h - 22h</li>
-              <div className="btn-grad">RESERVER</div>
+            <ul className="pt-4 text-blue-200  text-lg mx-10 ">
+              <li className="font-bold">Entrée (au choix)</li>
+              <li className="pt-4  text-sm ">
+                Chair de Crabe Façon Nem, Crème de Carotte de Sable au Paprika
+                Fumé, Jus de Carcasse au Kari Goss
+              </li>
+              <li className="pt-4 pb-8  text-sm">
+                Entrée végétarienne : Tartine d’Avocat, Tomate Cœur de Bœuf,
+                Mozzarella Di Buffala, Pesto d’Herbes
+              </li>
+              <li className="border-t-2 border-blue-100 w-60 mx-auto bottom-0 left-0 right-0 pt-3"></li>
+              <li className="font-bold">Plat (au choix)</li>
+              <li className="pt-3  text-sm">
+                Poisson du Marché, Risotto Parmesan, Crème de Carotte Jaune
+              </li>
+              <li className="pt-3  text-sm">
+                Suprême de Volaille de Kercoat, Farce Fine aux Eclats de
+                Pistaches, Carottes Rôties Ou Canette Jaune Grillée, Condiment
+                d’Airelles, Jus de Porto
+              </li>
+              <li className="pt-3 pb-8  text-sm">
+                Plat végétarien : Risotto Safran, Courgettes Confites et Feta
+              </li>
+              <li className="border-t-2 border-blue-100  w-60 mx-auto bottom-0 left-0 right-0 pt-3"></li>
+              <li className="font-bold">Entrée (au choix)</li>
+              <li className="pt-3  text-sm">
+                Tartelette Bananes Caramélisées, Citron Vert, Meringue Soufflée
+              </li>
+              <li className="pt-3  text-sm">
+                Saint Honoré Praliné, Sauce Cacao Amère
+              </li>
             </ul>
           </div>
         </div>
@@ -53,3 +74,5 @@ export default function SlideProg() {
     </div>
   );
 }
+
+// <div className="btn-grad">RESERVER</div> BOUTON RESERVER
