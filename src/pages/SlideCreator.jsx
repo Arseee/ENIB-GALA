@@ -165,7 +165,7 @@ export default function SlideCreator() {
           </div>
         </div>
       </div>
-      <a href="https://www.helloasso.com/associations/nuit-de-l-enib/evenements/gala">
+      <a href="https://www.helloasso.com/associations/nuit-de-l-enib/evenements/gala-2024-1">
         <div className="btn-grad mt-10 ">RESERVER</div>
       </a>
     </div>
